@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.7.0_19
+Built-By: heeckhau
+Created-By: Apache Maven
+Archiver-Version: Plexus Archiver
+
+Name: META-INF/maven/com.mousefeed/com.mousefeed.feature/pom.propertie
+ s
+SHA1-Digest: fNpC05sv3ihBS3SF0c6Dr62VLCQ=
+
+Name: feature.xml
+SHA1-Digest: 3LA5aXhf4qgSO3xs84QJxAydims=
+
+Name: META-INF/maven/com.mousefeed/com.mousefeed.feature/pom.xml
+SHA1-Digest: JsRCHdPzO5KWOi+mM5sYlAuK8g0=
+
+Name: feature.properties
+SHA1-Digest: A+HYxr4cbv/GMJInHUkroO+a238=
+

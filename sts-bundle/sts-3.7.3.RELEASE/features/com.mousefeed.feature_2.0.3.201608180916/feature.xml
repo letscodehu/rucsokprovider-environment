@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.mousefeed.feature"
+      label="%featureName"
+      version="2.0.3.201608180916"
+      provider-name="%providerName">
+
+   <description url="http://www.mousefeed.com/">
+      %description
+   </description>
+
+   <copyright url="http://www.hlsoft.com">
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.sigasi.com/updates/mousefeed/"/>
+   </url>
+
+   <plugin
+         id="com.mousefeed"
+         download-size="89"
+         install-size="160"
+         version="2.0.3.201608180916"
+         unpack="false"/>
+
+</feature>

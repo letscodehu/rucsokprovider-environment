@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='D:\dev\sts-bundle\sts-3.7.3.RELEASE\dropins\eclemma-2.3.3\.eclipseextension' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1472481024219'/>
+    <property name='org.eclipse.update.site.policy' value='USER-EXCLUDE'/>
+    <property name='org.eclipse.update.site.list' value=''/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='8'>
+    <artifact classifier='osgi.bundle' id='com.mountainminds.eclemma.doc' version='2.3.3.201602231923'>
+      <properties size='2'>
+        <property name='artifact.size' value='228186'/>
+        <property name='download.size' value='228186'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/dev/sts-bundle/sts-3.7.3.RELEASE/dropins/eclemma-2.3.3/plugins/com.mountainminds.eclemma.doc_2.3.3.201602231923.jar'/>
+        <property name='file.name' value='D:\dev\sts-bundle\sts-3.7.3.RELEASE\dropins\eclemma-2.3.3\plugins\com.mountainminds.eclemma.doc_2.3.3.201602231923.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.mountainminds.eclemma.core' version='2.3.3.201602231923'>
+      <properties size='2'>
+        <property name='artifact.size' value='101751'/>
+        <property name='download.size' value='101751'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/dev/sts-bundle/sts-3.7.3.RELEASE/dropins/eclemma-2.3.3/plugins/com.mountainminds.eclemma.core_2.3.3.201602231923.jar'/>
+        <property name='file.name' value='D:\dev\sts-bundle\sts-3.7.3.RELEASE\dropins\eclemma-2.3.3\plugins\com.mountainminds.eclemma.core_2.3.3.201602231923.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.mountainminds.eclemma.ui' version='2.3.3.201602231923'>
+      <properties size='2'>
+        <property name='artifact.size' value='253071'/>
+        <property name='download.size' value='253071'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/dev/sts-bundle/sts-3.7.3.RELEASE/dropins/eclemma-2.3.3/plugins/com.mountainminds.eclemma.ui_2.3.3.201602231923.jar'/>
+        <property name='file.name' value='D:\dev\sts-bundle\sts-3.7.3.RELEASE\dropins\eclemma-2.3.3\plugins\com.mountainminds.eclemma.ui_2.3.3.201602231923.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jacoco.report' version='0.7.6.201602180812'>
+      <properties size='2'>
+        <property name='artifact.size' value='141578'/>
+        <property name='download.size' value='141578'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/dev/sts-bundle/sts-3.7.3.RELEASE/dropins/eclemma-2.3.3/plugins/org.jacoco.report_0.7.6.201602180812.jar'/>
+        <property name='file.name' value='D:\dev\sts-bundle\sts-3.7.3.RELEASE\dropins\eclemma-2.3.3\plugins\org.jacoco.report_0.7.6.201602180812.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.mountainminds.eclemma.debug.ui.compatibility' version='2.3.3.201602231923'>
+      <properties size='2'>
+        <property name='artifact.size' value='8353'/>
+        <property name='download.size' value='8353'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/dev/sts-bundle/sts-3.7.3.RELEASE/dropins/eclemma-2.3.3/plugins/com.mountainminds.eclemma.debug.ui.compatibility_2.3.3.201602231923.jar'/>
+        <property name='file.name' value='D:\dev\sts-bundle\sts-3.7.3.RELEASE\dropins\eclemma-2.3.3\plugins\com.mountainminds.eclemma.debug.ui.compatibility_2.3.3.201602231923.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jacoco.core' version='0.7.6.201602180812'>
+      <properties size='2'>
+        <property name='artifact.size' value='135841'/>
+        <property name='download.size' value='135841'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/dev/sts-bundle/sts-3.7.3.RELEASE/dropins/eclemma-2.3.3/plugins/org.jacoco.core_0.7.6.201602180812.jar'/>
+        <property name='file.name' value='D:\dev\sts-bundle\sts-3.7.3.RELEASE\dropins\eclemma-2.3.3\plugins\org.jacoco.core_0.7.6.201602180812.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jacoco.agent' version='0.7.6.201602180812'>
+      <properties size='2'>
+        <property name='artifact.size' value='257729'/>
+        <property name='download.size' value='257729'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/dev/sts-bundle/sts-3.7.3.RELEASE/dropins/eclemma-2.3.3/plugins/org.jacoco.agent_0.7.6.201602180812.jar'/>
+        <property name='file.name' value='D:\dev\sts-bundle\sts-3.7.3.RELEASE\dropins\eclemma-2.3.3\plugins\org.jacoco.agent_0.7.6.201602180812.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.mountainminds.eclemma.asm' version='2.3.3.201602231923'>
+      <properties size='2'>
+        <property name='artifact.size' value='262741'/>
+        <property name='download.size' value='262741'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/dev/sts-bundle/sts-3.7.3.RELEASE/dropins/eclemma-2.3.3/plugins/com.mountainminds.eclemma.asm_2.3.3.201602231923.jar'/>
+        <property name='file.name' value='D:\dev\sts-bundle\sts-3.7.3.RELEASE\dropins\eclemma-2.3.3\plugins\com.mountainminds.eclemma.asm_2.3.3.201602231923.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>
